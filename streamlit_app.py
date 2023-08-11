@@ -35,7 +35,6 @@ st.dataframe(fruityvice_normalized)
 
 import snowflake.connector
 
-
 st.text("Hello from Snowflake:")
 
 my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
